@@ -9,10 +9,14 @@
 }
 select{
   width: 175px;
+  height: 35px;
+  border-radius: 6px;
   background-color: #4297A0;
   border: 0.1px solid black;
 }
 input{
+  height: 35px;
+  border-radius: 6px;
   background-color: #4297A0;
   border: 0.1px solid black;
 }
