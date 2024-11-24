@@ -43,7 +43,7 @@ function Principal() {
     <>
         <header className='header'>
             <Link to="/historial">
-              <img src="./src/assets/grafico.png" alt="grafico" width={"40px"}/>
+              <img src="./grafico.png" alt="grafico" width={"40px"}/>
             </Link>
         </header>
         <main>
