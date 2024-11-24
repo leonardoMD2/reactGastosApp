@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { InputNumeros } from './componentes/inputs/Input'
 import { ButtonSubmit } from './componentes/buttons/Button'
 import InputList from './componentes/inputs/InputList'
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import PostData from './utils/POST'
 import './App.css'
 
@@ -41,7 +41,11 @@ function Principal() {
 
   return (
     <>
-   
+        <header className='header'>
+            <Link to="/historial">
+              <img src="src/assets/grafico.png" alt="grafico" width={"40px"}/>
+            </Link>
+        </header>
         <main>
           <h1>Control de Gastos</h1>
           <h2>Tipo de gasto</h2>
