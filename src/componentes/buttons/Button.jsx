@@ -1,7 +1,7 @@
-export const ButtonSubmit = ({parentMethod}) => {
+export const ButtonSubmit = ({parentMethod, text}) => {
 
     return(
-       <button onClick={parentMethod}>Ingresar</button>
+       <button onClick={parentMethod}>{text}</button>
     )
 }
 
